@@ -1,0 +1,80 @@
+<project name="Persistent Project" default="all">
+	
+	<property name="myproject" value="C:/myproject1"/>
+	<property name="src" value="${myproject}/src"/>
+	<property name="bin" value="${myproject}/bin"/>
+	<property name="test" value="${myproject}/test"/>
+	<property name="report" value="${myproject}/report"/>
+	<property name="docs" value="${myproject}/docs"/>
+	<property name="deploy" value="${myproject}/deploy"/>
+	
+	<path id="myclasspath">
+			<fileset includes="*.jar" dir="D:\lib"></fileset>
+	</path>
+	
+	<target name="clean">
+		<echo message="cleaning"></echo>
+		<delete dir="${myproject}"></delete>
+	</target>
+	
+	<target name="init" depends="clean">
+		<echo>Initialization</echo>
+		<mkdir dir="${myproject}"/>
+		<mkdir dir="${src}"/>
+		<mkdir dir="${bin}"/>
+		<mkdir dir="${test}"/>
+		<mkdir dir="${report}"/>
+		<mkdir dir="${docs}"/>
+		<mkdir dir="${deploy}"/>
+	</target>
+	
+	<target name="copy" depends="init">
+		<echo message="Copying code from soem source directory"></echo>
+		<copy todir="${src}">
+			<fileset dir="src" includes="**/*.java"></fileset>
+		</copy>
+	</target>
+	
+	<target name="compile" depends="copy">
+		<echo message="Compiling the source code"></echo>
+		
+	</target>
+	
+	<target name="test" depends="compile">
+		<echo message="Testing code using Junit Test Cases"></echo>
+		<junit printsummary="true">
+			<classpath refid="myclasspath"></classpath>
+			<test name="com.psl.test.TestUserManagement" todir="${test}"></test>
+			<formatter type="xml"/>
+			<formatter type="plain"/>
+		</junit>
+	
+	</target>
+	
+	<target name="report" depends="test">
+		<echo message="Generating reports"></echo>
+		<junitreport>
+			<fileset dir="${test}">
+				<include name="TEST-*.xml"/>
+			</fileset>
+			<report todir="${report}" format="frames"/>
+		</junitreport>
+	</target>
+	
+	<target name="docs" depends="report">
+		<echo message="Generating Java docs"></echo>
+	</target>
+	
+	<target name="package" depends="docs">
+		<echo message="Packaging"></echo>
+	</target>
+	
+	<target name="deploy" depends="package">
+		<echo message="Deploying"></echo>
+	</target>
+	
+	<target name="all" depends="deploy">
+		<echo>Welcome to ANT script</echo>
+	</target>
+	
+</project>

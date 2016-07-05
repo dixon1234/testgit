@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="GOD23786" id="0" name="TestUserManagement" package="com.psl.test" tests="1" time="0.0" timestamp="2016-07-05T04:47:56">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/D:/eclipse JUNO/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="D:\eclipse JUNO\jre\lib\resources.jar;D:\eclipse JUNO\jre\lib\rt.jar;D:\eclipse JUNO\jre\lib\sunrsasign.jar;D:\eclipse JUNO\jre\lib\jsse.jar;D:\eclipse JUNO\jre\lib\jce.jar;D:\eclipse JUNO\jre\lib\charsets.jar;D:\eclipse JUNO\jre\lib\jfr.jar;D:\eclipse JUNO\jre\classes" />
+
+          <property name="report" value="C:/myproject1/report" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609" />
+
+          <property name="java.runtime.version" value="1.8.0_45-b14" />
+
+          <property name="user.name" value="mala_shanbhag" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="D:\eclipse JUNO\jre\bin" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="ant.project.name" value="Persistent Project" />
+
+          <property name="java.version" value="1.8.0_45" />
+
+          <property name="user.timezone" value="Asia/Calcutta" />
+
+          <property name="bin" value="C:/myproject1/bin" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="D:\eclipse JUNO\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="myproject" value="C:/myproject1" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="src" value="C:/myproject1/src" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="D:\eclipse JUNO\jre" />
+
+          <property name="ant.file.Persistent Project" value="C:\Users\mala_shanbhag\java_workspace\ANT_Example\build.xml" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\mala_shanbhag\java_workspace\ANT_Example\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="deploy" value="C:/myproject1/deploy" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.45-b02" />
+
+          <property name="docs" value="C:/myproject1/docs" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/D:/eclipse JUNO/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/scripts/" />
+
+          <property name="user.home" value="C:\Users\mala_shanbhag" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test" value="C:/myproject1/test" />
+
+          <property name="ant.file.type.Persistent Project" value="file" />
+
+          <property name="java.library.path" value="D:\eclipse JUNO;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/eclipse JUNO/jre/bin/server;D:/eclipse JUNO/jre/bin;D:/eclipse JUNO/jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Apache_Maven2.2.1\apache-maven-2.2.1-bin\apache-maven-2.2.1\bin;D:\apache-ant-1.9.5-bin\apache-ant-1.9.5\bin;D:\eclipse JUNO;;.;D:\eclipse JUNO\configuration\org.eclipse.osgi\bundles\636\1\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1467694075940 -Declipse.connect.port=58812 -Declipse.pdebuild.home=/D:/eclipse JUNO/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/./ -Declipse.pdebuild.scripts=/D:/eclipse JUNO/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/scripts/ -Declipse.pdebuild.templates=/D:/eclipse JUNO/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/templates/ -Dant.home=D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\mala_shanbhag\java_workspace\ANT_Example\build.xml" />
+
+          <property name="java.class.path" value="D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-antlr.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-apache-bcel.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-apache-bsf.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-apache-log4j.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-apache-oro.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-apache-regexp.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-apache-resolver.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-apache-xalan2.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-commons-logging.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-commons-net.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-jai.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-javamail.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-jdepend.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-jmf.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-jsch.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-junit.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-junit4.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-launcher.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-netrexx.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-swing.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-testutil.jar;D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant.jar;D:\eclipse JUNO\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\antdebug.jar;D:\eclipse JUNO\configuration\org.eclipse.osgi\bundles\57\1\.cp\lib\remote.jar;D:\eclipse JUNO\configuration\org.eclipse.osgi\bundles\58\1\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_45\lib\tools.jar;D:\eclipse JUNO\plugins\org.eclipse.swt.win32.win32.x86_64_3.100.1.v4236b.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="eclipse.pdebuild.home" value="/D:/eclipse JUNO/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\MALA_S~1\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="D:\eclipse JUNO\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\mala_shanbhag\java_workspace\ANT_Example" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\mala_shanbhag\java_workspace\ANT_Example" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\eclipse JUNO\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <error message="com.psl.test.TestUserManagement" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.psl.test.TestUserManagement
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:32)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:424)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:138)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
